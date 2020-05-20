@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F18484</color>
+    <color name="colorPrimaryDark">#0A141E</color>
+    <color name="colorAccent">#0A141E</color>
+    <color name="background">#0A141E</color>
+    <color name="card">#00408E</color>
+    <color name="news">#0A141E</color>
+    <color name="tabText">#616161</color>
+    <color name="active">#0099ff</color>
+    <color name="death">#df3332</color>
+    <color name="recovered">#1ae021</color>
+</resources>

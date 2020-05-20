@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/card">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/stateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/state"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:progress="100"
+            android:layout_marginBottom="10dp"
+            android:progressBackgroundTint="@android:color/white"
+            android:progressTint="@android:color/white"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/totalCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/totalCases"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/activeCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/activeCases"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/deaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/deaths"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/recovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/recovered"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_horizontal"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:progress="100"
+            android:progressBackgroundTint="@android:color/white"
+            android:progressTint="@android:color/white"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/today"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/newCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/newCases"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/newDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/newDeaths"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/newRecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/newRecovered"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/back"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@android:color/white"
+                android:textColor="@color/card"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

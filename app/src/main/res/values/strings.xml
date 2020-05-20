@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CORIFY</string>
+
+    //Splash Screen
+    <string name="splashHeading">CORIFY</string>
+    <string name="hashTag">#StayInformedStaySafe</string>
+
+    //Bottom Nav
+    <string name="world">World</string>
+    <string name="india">India</string>
+    <string name="news">News</string>
+    <string name="settings">Settings</string>
+
+    //New Individual Item
+    <string name="title">This is just a sample title</string>
+    <string name="description">This is just a sample description. This is just a sample description. This is just a sample description. This is just a sample description. This is just a sample description.</string>
+    <string name="source">Sample source</string>
+
+    //Info Card
+    <string name="state">TAMIL NADU</string>
+    <string name="totalCases">1234 total cases</string>
+    <string name="activeCases">1000 active</string>
+    <string name="deaths">46 deceased</string>
+    <string name="recovered">234 recovered</string>
+    <string name="today">TODAY</string>
+    <string name="newCases">+24 cases</string>
+    <string name="newDeaths">+4 deceased</string>
+    <string name="newRecovered">+73 recovered</string>
+    <string name="back">BACK</string>
+
+    //Map Activity
+    <string name="heading">Click on any state/UT to view stats</string>
+    <string name="allStats">SHOW ALL STATS</string>
+
+    //ExpandedCard
+    <string name="confirmed">1234</string>
+    <string name="active">1003</string>
+    <string name="recovered2">123</string>
+    <string name="deaths2">123</string>
+    <string name="newCases2">+123</string>
+    <string name="newRecovered2">+234</string>
+    <string name="newDeaths2">+34</string>
+    <string name="updateTime">Last updated at 17/04/2020 20:37:11</string>
+    <string name="heading2">All states and UTs (by cases)</string>
+    <string name="activeTitle">Active</string>
+    <string name="confirmedTitle">Confirmed</string>
+    <string name="recoveredTitle">Recovered</string>
+    <string name="deceasedTitle">Deceased</string>
+    <string name="locationTitle">Location</string>
+
+    //Offline Card
+    <string name="offlineTitle">Oh shucks!</string>
+    <string name="offlineMessage">Slow or no internet connection\nPlease check your internet connection\n\nDo you wish to continue in offline mode?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="firstLogin">In order to access the app in offline mode, the app must have an active internet connection the first time it is opened</string>
+
+    //Settings
+    <string name="message1">Corify health assistant helps you to streamline your daily lifestyle in a way to protect you from widespread corona pandemic.\n\nThe assistant seamlessly integrates with your schedule by timely sending you notifications about WHO health guidelines, preventive measures, trending lockdown-pastimes, productivity tips and much more to keep you safe and healthy during home-lockdown.</string>
+    <string name="notifications">Corify Notifications</string>
+    <string name="privacy">Privacy Policy</string>
+</resources>

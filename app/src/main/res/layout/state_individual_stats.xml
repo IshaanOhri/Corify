@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:layout_marginVertical="3dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/statecard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/stateName"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/state"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout0"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="end"
+                    app:layout_constraintStart_toEndOf="@+id/stateName"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/activeCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/active"
+                        android:textColor="@color/active"
+                        android:textSize="14dp"
+                        android:textAlignment="textEnd"/>
+
+                </LinearLayout>
+
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/roboto_bold"-->
+<!--                    android:text="@string/today"-->
+<!--                    android:layout_marginVertical="3dp"-->
+<!--                    android:textColor="@android:color/black"-->
+<!--                    android:textSize="14dp"/>-->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="end"
+                    app:layout_constraintStart_toEndOf="@+id/linearLayout0"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/confirmedCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/confirmed"
+                        android:textAlignment="textEnd"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/newCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/newCases2"
+                        android:textAlignment="textEnd"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="end"
+                    app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/recoveredCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/recovered2"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/recovered"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/newRecoveredCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/newRecovered2"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/recovered"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="end"
+                    app:layout_constraintStart_toEndOf="@+id/linearLayout"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/deathCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/deaths2"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/death"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/newDeathsCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/newDeaths2"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/death"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/expandedMenu"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:visibility="visible"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/linearLayout0">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/update"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/roboto_regular"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:text="@string/updateTime"-->
+<!--                        android:textColor="@color/tabText"-->
+<!--                        android:textSize="12dp"-->
+<!--                        android:textStyle="italic" />-->
+
+<!--                </LinearLayout>-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

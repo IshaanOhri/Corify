@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "870194710512",
+    "firebase_url": "https://corify.firebaseio.com",
+    "project_id": "corify",
+    "storage_bucket": "corify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870194710512:android:c18d6dc6acc2ef6a863f35",
+        "android_client_info": {
+          "package_name": "com.ishaan.corify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870194710512-avsdd2hkht7t21m545q6igr36r5bfhhc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ishaan.corify",
+            "certificate_hash": "a801e7675ec760a63f38df4367ef330998058a62"
+          }
+        },
+        {
+          "client_id": "870194710512-s2e9od6pvkqdgtgdrpaqpi3luose2677.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ishaan.corify",
+            "certificate_hash": "58d6549d64dd9255f52f9c9762952f985d7f7d53"
+          }
+        },
+        {
+          "client_id": "870194710512-gqmlhfna1tnse98td69tf77a4khlje9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8p5eFSTyiT5rioueRnV7HFaa5lfuqKAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870194710512-gqmlhfna1tnse98td69tf77a4khlje9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
