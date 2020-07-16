@@ -16,16 +16,16 @@
 
 <p align="center">
   <a href="https://github.com/IshaanOhri">
-    <img src="https://github.com/IshaanOhri/Mockups/blob/master/Corify/Set%202/Screen%201.png" width="400" hspace="20">
+    <img src="https://github.com/IshaanOhri/Mockups/blob/master/Corify/Set%202/Screen%201.png" width="300" hspace="20">
   </a>
   <a href="https://github.com/IshaanOhri">
-    <img src="https://github.com/IshaanOhri/Mockups/blob/master/Corify/Set%202/Screen%202.png" width="400">
+    <img src="https://github.com/IshaanOhri/Mockups/blob/master/Corify/Set%202/Screen%202.png" width="300">
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/IshaanOhri">
-    <img src="https://github.com/IshaanOhri/Mockups/blob/master/Corify/Set%202/Screen%203.png" width="400">
+    <img src="https://github.com/IshaanOhri/Mockups/blob/master/Corify/Set%202/Screen%203.png" width="300">
   </a>
 </p>
 
