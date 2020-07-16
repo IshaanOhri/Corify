@@ -8,7 +8,7 @@
 </p>
 
 <div align="center">
-  <a href="http://www.corify.in/resource/apk">Download Android App 💥</a>
+  <a href="https://www.corify.in/resource/apk">Download Android App 💥</a>
 </div>
 
 <br>
