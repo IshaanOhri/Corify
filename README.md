@@ -43,6 +43,11 @@ Contributions are what make the open source community such an amazing place to b
 
 <br>
 
+## Colaborators
+1. ![Akshit Sadana](https://github.com/Akshit8)
+
+<br>
+
 ## Tech stacks used
 <p>
   <img src="https://github.com/IshaanOhri/IshaanOhri/blob/master/assets/nodejs.png" height=50 hspace=20>
