@@ -44,7 +44,7 @@ Contributions are what make the open source community such an amazing place to b
 <br>
 
 ## Colaborators
-1. ![Akshit Sadana](https://github.com/Akshit8)
+1. <a href="https://github.com/Akshit8">Akshit Sadana</a>
 
 <br>
 
